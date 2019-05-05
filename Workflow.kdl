@@ -1,4 +1,4 @@
-wNodes {
+Nodes {
     (n1): {
         "name": "CSV Reader",
         "factory": "org.knime.base.node.io.csvreader.CSVReaderNodeFactory",
@@ -10,8 +10,7 @@ wNodes {
         "feature_version": "3.7.1.v201901291053",
         "model": [
             {
-                "url": "",
-                "used_variable": "input_file"
+                "url": "/Users/jared/knime-workspace/Example Workflows/TheData/Misc/Demographics.csv",
             },
             {
                 "colDelimiter": ","
@@ -305,11 +304,6 @@ wNodes {
 }
 
 Workflow {
-    "variables": [
-        {
-            "input_file": "/Users/jared/knime-workspace/Example Workflows/TheData/Misc/Demographics.csv"
-        }
-    ],
     "connections": {
         (n1:1)-->(n3:1),
         (n3:1)-->(n2:1),

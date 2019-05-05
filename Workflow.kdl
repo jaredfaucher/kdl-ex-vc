@@ -10,7 +10,7 @@ Nodes {
         "feature_version": "3.7.1.v201901291053",
         "model": [
             {
-                "url": "/Users/jared/knime-workspace/Example Workflows/TheData/Misc/Demographics.csv",
+                "url": "/Users/jared/knime-workspace/Example Workflows/TheData/Misc/Demographics.csv"
             },
             {
                 "colDelimiter": ","
